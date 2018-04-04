@@ -7,7 +7,7 @@ La page de google recréée par la team BORDEAUX de The Hacking Project session 
 Projet libre de droit et d'accès à la lecture/écriture. Pour pouvoir visualiser le projet, un simple navigateur suffit.
 
 ```
-Firefox, Safari, Chrome, Interner Explorer 8, ...
+Firefox, Safari, Chrome, Internet Explorer 8, ...
 ```
 
 ## Pour les tests
