@@ -1,7 +1,8 @@
 body {
+    border: 2px solid green;
     background-color: white;
     font-family: arial, sans-serif;
-}
+    }
 
 body li {
     list-style: none;
@@ -16,52 +17,65 @@ nav ul {
     flex-flow: row;
 }
 
+header {
+    margin-top: 0px;
+    margin-bottom: -30px;
+}
+
 .container {
+    margin-bottom: -84px;
     width: 100%;
     border: 2px solid red;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    height: 82vh;
 }
 
 .container .logo {
-  width: 272px;
-  height: 92px;
+    width: 272px;
+    height: 92px;
 }
 
 .form {
     border: 1px solid #D7D7D7 ;
-    position: relative;
     width: 50%;
     height: 44px;
-
 }
 
 .form img {
-    position: relative;
-    right: 0;
-    top: auto;
-    width: auto;
     height: 23px;
-
+    vertical-align: middle;
 }
 
 .form input {
-    padding-right: 30px; /* button padding */
+    padding-right: -30px; /* button padding */
+    width: 90%;
+    height: 90%;
+    border: 0px solid white;
+    font-size: 1.2em;
 }
 
-.form input, .form img {
-    background-color: transparent;
-    border: 0;
+input:focus {
+    outline: none;
+}
+
+footer {
+    background-color: rgba(239,239,239,1);
+    width: 100%;
+}
+
+.footer-top
+{
+    border: 1px solid rgba(221,221,221,1);
 }
 
 .footer-bottom {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    background-color: grey;
-
+    
 }
 
 .footer-bottom, .droite {
