@@ -1,21 +1,20 @@
 .wrapper {
-    border:1px solid #000;
-    display:inline-block;
-    position:relative;
-}
-
-input,
-button {
-    background-color:transparent;
-    border:0;
+    border: 1px solid #000;
+    display: inline-block;
+    position: relative;
 }
 
 button {
-    position:absolute;
-    right:0;
-    top:0;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 input {
-    padding-right:30px; /* button padding */
+    padding-right: 30px; /* button padding */
+}
+
+input, button {
+    background-color: transparent;
+    border: 0;
 }
