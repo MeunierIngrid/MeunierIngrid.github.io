@@ -7,6 +7,10 @@ body li {
     list-style: none;
 }
 
+body ul {
+    padding: 0;
+}
+
 nav ul {
     display: flex;
     flex-flow: row;
@@ -18,6 +22,7 @@ nav ul {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    align-items: center;
 }
 
 .container .logo {
@@ -26,15 +31,20 @@ nav ul {
 }
 
 .form {
-    border: 1px solid #000;
-    display: inline-block;
+    border: 1px solid #D7D7D7 ;
     position: relative;
+    width: 50%;
+    height: 44px;
+
 }
 
 .form img {
-    position: absolute;
+    position: relative;
     right: 0;
-    top: 0;
+    top: auto;
+    width: auto;
+    height: 23px;
+
 }
 
 .form input {
@@ -44,4 +54,25 @@ nav ul {
 .form input, .form img {
     background-color: transparent;
     border: 0;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: grey;
+
+}
+
+.footer-bottom, .droite {
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.footer-bottom, .gauche {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
 }
