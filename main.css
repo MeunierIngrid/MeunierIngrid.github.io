@@ -52,8 +52,23 @@ header a:hover {
   color: #989898;
 }
 
+.menu {
+    width: 30px;
+    height: 30px;
+    background-image: url('google_panel.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    display: inline-block;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+
+.menu:hover {
+  opacity: 1;
+}
+
 .sign {
-  background-color: rgba(53,109,249,1);
+  background-color: #4584ee;
   border: none;
   color: white;
   padding: 7px 16px;
@@ -95,23 +110,8 @@ button:hover {
     box-shadow: 0 1px 3px #CCC;
 }
 
-.menu {
-    width: 30px;
-    height: 30px;
-    background-image: url('google_panel.png');
-    background-size: 528px 68px;
-    background-position: -132px -38px;
-    display: inline-block;
-    box-sizing: border-box;
-    opacity: 0.5;
-}
-
-.menu:hover {
-  opacity: 1;
-}
-
 .container {
-    margin-bottom: -90px;
+    margin-bottom: -100px;
     width: 100%;
     /* border: 2px solid red; */
     display: flex;
@@ -131,9 +131,14 @@ button:hover {
 .form {
     border: 1px solid #D7D7D7;
     width: 50%;
+    max-width: 600px;
     height: 44px;
-    box-shadow: 1px 2px 5px #CCC;
+    box-shadow: 0px 1px 2px #CCC;
     margin: 10px 0;
+}
+
+.form:hover {
+    box-shadow: 1px 2px 5px #CCC;
 }
 
 .form img {
@@ -147,7 +152,8 @@ button:hover {
     width: 88%;
     height: 90%;
     border: 0px solid white;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    font-family: arial, sans-serif;
 }
 
 input:focus {
@@ -167,6 +173,7 @@ footer a:hover {
 .footer-top {
     padding: 0 10px;
     border: 1px solid rgba(221,221,221,1);
+    font-size: 1.2em;
 }
 
 .footer-bottom {
