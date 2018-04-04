@@ -18,6 +18,10 @@ body ul {
     padding: 0;
 }
 
+p a:hover {
+  text-decoration: underline;
+}
+
 nav {
     display: flex;
     flex-flow: row;
@@ -29,6 +33,7 @@ nav {
   align-items: center;
   justify-content: space-around;
 }
+
 .navbar a {
   margin: 0 10px;
 }
@@ -42,6 +47,11 @@ header a {
   color: #252525;
 }
 
+header a:hover {
+  text-decoration: underline;
+  color: #989898;
+}
+
 .sign {
   background-color: rgba(53,109,249,1);
   border: none;
@@ -52,31 +62,37 @@ header a {
   text-decoration: none;
   display: inline-block;
   margin: 4px 2px;
-  border-radius: 5%;
+  border-radius: 2%;
+  cursor: default;
 }
 
 .sign:hover {
      box-shadow: 0 2px #CCC;
+     text-decoration: none;
+     color: white;
+}
+
+.btn {
+  margin: 10px 0;
 }
 
 button {
     background-color: rgba(235,235,235,1);
-    border: none;
+    border: 1px solid transparent;
     color: rgba(98,98,98,1);
     padding: 10px 17px;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
-    border-radius: 5%;
-    margin: 20px 0;
+    border-radius: 3%;
+    margin: 20px 5px;
 }
 
 button:hover {
     color: rgba(25,25,25,1);
-    border: inset 1px solid rgba(186,186,186,1);
-    box-shadow: 0 2px #CCC;
+    border: 1px solid rgba(186,186,186,1);
+    box-shadow: 0 1px 3px #CCC;
 }
 
 .menu {
@@ -87,10 +103,15 @@ button:hover {
     background-position: -132px -38px;
     display: inline-block;
     box-sizing: border-box;
+    opacity: 0.5;
+}
+
+.menu:hover {
+  opacity: 1;
 }
 
 .container {
-    margin-bottom: -200px;
+    margin-bottom: -90px;
     width: 100%;
     /* border: 2px solid red; */
     display: flex;
@@ -103,14 +124,16 @@ button:hover {
 .container .logo {
     width: 272px;
     height: 92px;
+    margin-top: -150px;
+    margin-bottom: 30px;
 }
-
 
 .form {
     border: 1px solid #D7D7D7;
     width: 50%;
     height: 44px;
     box-shadow: 1px 2px 5px #CCC;
+    margin: 10px 0;
 }
 
 .form img {
@@ -133,11 +156,16 @@ input:focus {
 
 footer {
     background-color: rgba(239,239,239,1);
+    color: rgba(0,0,0,.54);
     width: 100%;
 }
 
+footer a:hover {
+  text-decoration: underline;
+}
+
 .footer-top {
-    margin: 0 10px;
+    padding: 0 10px;
     border: 1px solid rgba(221,221,221,1);
 }
 
@@ -147,7 +175,8 @@ footer {
 }
 
 .footer-bottom a {
-    color: #252525;
+    color: inherit;
+    padding: 0 10px;
 }
 
 .footer-bottom, .droite {
@@ -167,15 +196,15 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-.droite .BG a {
+/* .droite .BG a {
     margin: 0 10px;
-}
+} */
 .gauche .BG {
     display: flex;
     justify-content: center;
     align-items: center;
     width: auto;
 }
-.gauche .BG a {
+/* .gauche .BG a {
     margin: 0 10px;
-}
+} */
