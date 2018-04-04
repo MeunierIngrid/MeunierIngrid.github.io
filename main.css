@@ -1,10 +1,13 @@
-.wrapper {
+
+
+
+.form {
     border: 1px solid #000;
     display: inline-block;
     position: relative;
 }
 
-button {
+img {
     position: absolute;
     right: 0;
     top: 0;
@@ -14,7 +17,7 @@ input {
     padding-right: 30px; /* button padding */
 }
 
-input, button {
+input, img {
     background-color: transparent;
     border: 0;
 }
