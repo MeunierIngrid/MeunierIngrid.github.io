@@ -55,7 +55,7 @@ header a:hover {
 .menu {
     width: 30px;
     height: 30px;
-    background-image: url('google_panel.png');
+    background-image: url('CONTENT/google_panel.png');
     background-size: 528px 68px;
     background-position: -132px -38px;
     display: inline-block;
